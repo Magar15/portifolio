@@ -30,6 +30,15 @@ body{
     transition: .2s;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 39px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: blueviolet;
+}
 
 /* Estilo do cabeçalho */
 header{
@@ -102,7 +111,7 @@ section.topo-do-site .flex{
     animation: efeitoFlutuar 2s ease-in-out infinite alternate;
 }
 
-/* animação da imagem*/
+/* animação da imagem que flutua*/
 @keyframes efeitoFlutuar{
     0%{
         top: 0;
@@ -110,4 +119,39 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* MINHAS ESPECIALIDADES */
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #7d03817c;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: blueviolet;
+    
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 29px;
+    margin: 15px 0;
 }
