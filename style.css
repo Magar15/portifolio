@@ -40,6 +40,12 @@ h2.titulo span{
     color: blueviolet;
 }
 
+button:hover {
+    box-shadow: 0px 0px 8px rgb(79, 8, 146);
+    transform: scale(1.05);
+}
+
+
 /* Estilo do cabeçalho */
 header{
     padding: 40px 4%;
@@ -73,11 +79,6 @@ header nav ul li{
     padding: 0 40px;
 }
 
-
-.btn-contato button:hover {
-    box-shadow: 0px 0px 8px rgb(79, 8, 146);
-    transform: scale(1.05);
-}
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site{
@@ -154,4 +155,49 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3{
     font-size: 29px;
     margin: 15px 0;
+}
+
+
+/*ESTILO DO SOBRE-MIM*/
+
+section.sobre-mim{
+    padding: 100px 4%;
+}
+
+section.sobre-mim .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre-mim .txt-sobre{
+    color: #fff;
+}
+
+.sobre-mim .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre-mim .txt-sobre p{
+    font-size: 25px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.sobre-mim .txt-sobre h2 span{
+    color: blueviolet;
+    display: block;
+}
+
+.sobre-mim .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: blueviolet;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
 }
