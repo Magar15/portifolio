@@ -190,7 +190,7 @@ section.sobre-mim .flex{
     display: block;
 }
 
-.sobre-mim .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -263,4 +263,34 @@ section.trabalhos1 .flex{
 
 .img-tabal:hover{
     background-position: 100% 100%;
+}
+
+
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff25;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-bottom: 2px solid blueviolet;
+}
+
+footer .line-footer p i{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+footer .line-footer p a{
+    color: #fff;
 }
